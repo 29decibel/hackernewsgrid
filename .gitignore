@@ -1,0 +1,8 @@
+*.png
+screenshots
+screenshots-compressed
+node_modules
+public/index.html
+public/light.html
+public/data.json
+log.txt

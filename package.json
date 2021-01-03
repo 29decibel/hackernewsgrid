@@ -1,0 +1,21 @@
+{
+  "name": "hackernewsgrid-fetcher",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cheerio": "^1.0.0-rc.5",
+    "handlebars": "^4.7.6",
+    "imagemin": "^7.0.1",
+    "imagemin-pngquant": "^9.0.1",
+    "lodash": "^4.17.20",
+    "puppeteer": "^5.5.0",
+    "request": "^2.88.2",
+    "sharp": "^0.27.0"
+  }
+}

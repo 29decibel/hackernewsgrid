@@ -1,0 +1,153 @@
+body {
+    background: #2c3e50;
+    font-family: 'Raleway', sans-serif;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+    justify-content: center;
+}
+
+a {
+    color: #34495e;
+    text-decoration: none;
+    text-align:center;
+    position: relative;
+}
+
+a.link:visited {
+    color: #888;
+}
+
+a.img-link:visited {
+    -webkit-filter: grayscale(1) brightness(1.2) contrast(1.05);
+    filter: grayscale(1) brightness(1.2) contrast(1.05);
+}
+
+.card .link.comments:visited {
+    color: #888;
+}
+
+.card {
+    width: 300px;
+    margin: 10px;
+    margin-bottom: 20px;
+
+    width: 300px;
+    margin: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-start;
+    justify-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.card .img-link img {
+    width: 280px;
+    min-height: 196px;
+    box-shadow: 5px 5px 25px 0px rgba(46,61,73,0.2);
+    transition: box-shadow 300ms ease;
+    border-radius: 8px;
+    border: 5px solid #ecf0f1;
+}
+
+.card .extra {
+    margin-top: 8px;
+    margin-left: 5px;
+}
+
+.card .link.comments {
+    display: inline-block;
+    margin-left: 5px;
+    color: #eee;
+    font-size: 0.8em;
+}
+
+.card .img-link img:hover {
+    box-shadow: 2px 4px 8px 0px rgba(46,61,73,0.2);
+}
+
+.title {
+    font-size: 1em;
+    text-align:center;
+    margin-top: 8px;
+    color: #ecf0f1;
+}
+
+.page-title {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.nice-title {
+    text-transform: uppercase;
+    color: white;
+    font-size: 1.2em;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.foot-note {
+    text-align: center;
+    font-size: 0.8em;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.foot-note a {
+    color: #95a5a6;
+}
+
+body.light {
+    background-color: #ecf0f1;
+} 
+
+.light .nice-title {
+    color: #2c3e50;
+}
+
+.light .title {
+    color: #2c3e50;
+}
+
+.light .card .link.comments {
+    color: #34495e;
+}
+
+.light .card .img-link img {
+    border: 5px solid #7f8c8d;
+}
+
+.light .foot-note {
+    color: #34495e;
+}
+
+.theme-link {
+    margin: 3px;
+    color: white !important;
+}
+
+.light .theme-link {
+    margin: 3px;
+    color: #34495e !important;
+}
+
+#carbonads a {
+    color: white;
+    font-size: 0.9em;
+    display: block;
+}
+
+.light #carbonads a {
+    color: #2c3e50;
+    font-size: 0.9em;
+    display: block;
+}
